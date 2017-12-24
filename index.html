@@ -1,1 +1,30 @@
-" hello world!" 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+
+<body onLoad="init2d();draw()">
+  <div id="general">
+    <div id="expr" align="center" >
+     
+     <A1 id="A1"></A1> + <B1 id="B1"></B1>=<C1 id="C1">?</C1><input id="inputC1" type="text"  style="display:none;font-size:24px; " size="2" onInput="editInputC1()" ></input>
+     
+    </div>
+    <div id="line" align="center">
+      <canvas id="myCanvas" width="1000" height="200">
+        Пример не работает
+      </canvas>
+      <input id="inputA" type="text" size="1" style="display:none; " onInput="editInputA()">
+      <A2 id="inputA2"></A2>
+      <input id="inputB" type="text" size="1" style="display:none; " onInput="editInputB()">
+      <B2 id="inputB2"></B2>
+    </div>
+  </div>
+
+</body>
+
+</html>
